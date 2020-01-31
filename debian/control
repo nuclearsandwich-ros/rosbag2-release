@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosbag2-tests
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-index-cpp, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rclcpp, ros-turbulent-ros2bag, ros-turbulent-rosbag2, ros-turbulent-rosbag2-converter-default-plugins, ros-turbulent-rosbag2-storage, ros-turbulent-rosbag2-storage-default-plugins, ros-turbulent-rosbag2-test-common, ros-turbulent-std-msgs, ros-turbulent-test-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosbag2-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-index-cpp, ros-turbulent-ros-workspace
+Description: Tests package for rosbag2
