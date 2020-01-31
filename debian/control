@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosbag2-storage-default-plugins
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-pluginlib, ros-turbulent-rcutils, ros-turbulent-rosbag2-storage, ros-turbulent-rosbag2-test-common, ros-turbulent-sqlite3-vendor, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosbag2-storage-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-pluginlib, ros-turbulent-rcutils, ros-turbulent-rosbag2-storage, ros-turbulent-sqlite3-vendor, ros-turbulent-ros-workspace
+Description: ROSBag2 SQLite3 storage plugin
