@@ -1,0 +1,12 @@
+Source: ros-turbulent-shared-queues-vendor
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-shared-queues-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: Vendor package for concurrent queues from moodycamel
