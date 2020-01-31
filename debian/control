@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosbag2
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-index-cpp, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-pluginlib, ros-turbulent-poco-vendor, ros-turbulent-rcutils, ros-turbulent-rosbag2-storage, ros-turbulent-rosbag2-test-common, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-rosidl-typesupport-introspection-cpp, ros-turbulent-shared-queues-vendor, ros-turbulent-test-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosbag2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-index-cpp, ros-turbulent-pluginlib, ros-turbulent-poco-vendor, ros-turbulent-rcutils, ros-turbulent-rosbag2-storage, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-rosidl-typesupport-introspection-cpp, ros-turbulent-shared-queues-vendor, ros-turbulent-ros-workspace
+Description: ROSBag2 client library
