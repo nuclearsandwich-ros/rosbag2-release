@@ -1,0 +1,12 @@
+Source: ros-verystable-rosbag2-storage
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-pluginlib, ros-verystable-rcutils, ros-verystable-rosbag2-test-common, ros-verystable-yaml-cpp-vendor, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosbag2-storage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-pluginlib, ros-verystable-rcutils, ros-verystable-yaml-cpp-vendor, ros-verystable-ros-workspace
+Description: ROS2 independent storage format to store serialized ROS2 messages
