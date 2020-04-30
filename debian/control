@@ -1,0 +1,12 @@
+Source: ros-verystable-rosbag2-transport
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-ros, ros-verystable-ament-index-cpp, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-python-cmake-module, ros-verystable-rclcpp, ros-verystable-rmw, ros-verystable-rosbag2, ros-verystable-rosbag2-test-common, ros-verystable-shared-queues-vendor, ros-verystable-test-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosbag2-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-python-cmake-module, ros-verystable-rclcpp, ros-verystable-rmw, ros-verystable-rosbag2, ros-verystable-shared-queues-vendor, ros-verystable-ros-workspace
+Description: Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
