@@ -1,0 +1,12 @@
+Source: ros-verystable-rosbag2-tests
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-gmock, ros-verystable-ament-index-cpp, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rclcpp, ros-verystable-ros2bag, ros-verystable-rosbag2, ros-verystable-rosbag2-converter-default-plugins, ros-verystable-rosbag2-storage, ros-verystable-rosbag2-storage-default-plugins, ros-verystable-rosbag2-test-common, ros-verystable-std-msgs, ros-verystable-test-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosbag2-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-index-cpp, ros-verystable-ros-workspace
+Description: Tests package for rosbag2
