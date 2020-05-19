@@ -1,0 +1,12 @@
+Source: ros-testing-rosbag2-storage
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gmock, ros-testing-ament-cmake-gtest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-pluginlib, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rosbag2-test-common, ros-testing-yaml-cpp-vendor, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosbag2-storage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-pluginlib, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-yaml-cpp-vendor, ros-testing-ros-workspace
+Description: ROS2 independent storage format to store serialized ROS2 messages
