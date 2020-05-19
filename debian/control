@@ -1,0 +1,12 @@
+Source: ros-testing-rosbag2-cpp
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gmock, ros-testing-ament-index-cpp, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-pluginlib, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rosbag2-storage, ros-testing-rosbag2-test-common, ros-testing-rosidl-runtime-c, ros-testing-rosidl-runtime-cpp, ros-testing-rosidl-typesupport-cpp, ros-testing-rosidl-typesupport-introspection-cpp, ros-testing-shared-queues-vendor, ros-testing-test-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosbag2-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-cpp, ros-testing-pluginlib, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rosbag2-storage, ros-testing-rosidl-runtime-c, ros-testing-rosidl-runtime-cpp, ros-testing-rosidl-typesupport-cpp, ros-testing-rosidl-typesupport-introspection-cpp, ros-testing-shared-queues-vendor, ros-testing-ros-workspace
+Description: C++ ROSBag2 client library
