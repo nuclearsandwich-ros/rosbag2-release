@@ -1,0 +1,12 @@
+Source: ros-testing-rosbag2-compression
+Section: misc
+Priority: optional
+Maintainer: ROS Tooling Working Group <ros-tooling@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gmock, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rclcpp, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rosbag2-cpp, ros-testing-rosbag2-storage, ros-testing-rosbag2-test-common, ros-testing-zstd-vendor, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosbag2-compression
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rosbag2-cpp, ros-testing-rosbag2-storage, ros-testing-zstd-vendor, ros-testing-ros-workspace
+Description: Compression implementations for rosbag2 bags and messages.
