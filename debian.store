@@ -1,1 +1,1 @@
-{"trim": "", "base": "fcbe985", "trimbase": "", "parent": "release/foxy/rosbag2_test_common", "previous": "88162e2"}
+{"base": "160931d", "parent": "release/testing/rosbag2_test_common", "previous": "daff864", "trim": "", "trimbase": ""}
