@@ -1,0 +1,12 @@
+Source: ros-testing-rosbag2-converter-default-plugins
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gmock, ros-testing-ament-index-cpp, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-pluginlib, ros-testing-rcpputils, ros-testing-rmw, ros-testing-rmw-fastrtps-cpp, ros-testing-rosbag2-cpp, ros-testing-rosbag2-test-common, ros-testing-rosidl-runtime-cpp, ros-testing-test-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosbag2-converter-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-cpp, ros-testing-pluginlib, ros-testing-rcpputils, ros-testing-rmw, ros-testing-rmw-fastrtps-cpp, ros-testing-rosbag2-cpp, ros-testing-rosidl-runtime-cpp, ros-testing-ros-workspace
+Description: Package containing default plugins for format converters
