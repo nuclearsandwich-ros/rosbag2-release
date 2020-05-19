@@ -1,0 +1,12 @@
+Source: ros-testing-ros2bag
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-pep257, ros-testing-launch-testing, ros-testing-launch-testing-ros, ros-testing-ros2cli, ros-testing-rosbag2-transport, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ros2bag
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-testing-ros2cli, ros-testing-rosbag2-transport, ros-testing-ros-workspace
+Description: Entry point for rosbag in ROS 2
